@@ -1,0 +1,9 @@
+node_modules
+*.png
+media/1.png
+media/2.png
+allure-results
+media/1.png
+.vscode/launch.json
+.DS_Store
+__tests__/sandbox.test.js

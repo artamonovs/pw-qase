@@ -1,6 +1,16 @@
 {
   "dependencies": {
-    "@playwright/test": "^1.30.0",
-    "playwright": "^1.30.0"
-  }
+    "chalk": "^4.1.2",
+    "playwright-qase-reporter": "^1.2.0-alpha.3"
+  },
+  "name": "pw-qase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/artamonovs/pw-qase.git",
+  "author": "Sergey Artamonov <i@artamonovserg.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.30.0"
+  },
+  "scripts": {}
 }

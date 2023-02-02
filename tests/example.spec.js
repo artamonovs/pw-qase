@@ -1,13 +1,15 @@
-import { test, expect } from '@playwright/test';
+// @ts-check
+import { test, expect }  from '@playwright/test';
+import { qase } from 'playwright-qase-reporter/dist/playwright';
 
-test('has title', async ({ page }) => {
+test(qase(5,'has title'), async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Playwright/);
 });
 
-test('get started link', async ({ page }) => {
+test(qase(6, 'get started link'), async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
   // Click the get started link.

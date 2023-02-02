@@ -7,3 +7,6 @@ media/1.png
 .vscode/launch.json
 .DS_Store
 __tests__/sandbox.test.js
+/test-results/
+/playwright-report/
+/playwright/.cache/
